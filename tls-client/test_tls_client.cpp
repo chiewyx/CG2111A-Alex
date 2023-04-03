@@ -49,7 +49,7 @@ void *writerThread(void *conn) {
     EXIT_THREAD(conn);
 }
 
-#define SERVER_NAME "192.168.43.186"
+#define SERVER_NAME ""
 #define CA_CERT_FNAME "signing.pem"
 #define PORT_NUM 5000
 #define CLIENT_CERT_FNAME "laptop.crt"
